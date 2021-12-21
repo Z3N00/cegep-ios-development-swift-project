@@ -10,7 +10,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Msq-EO-cXh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DpS-ww-Ql1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="6ns-Vm-SzW" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jWl-3P-Ja0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -19,12 +18,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="1Cx-3d-IQl" kind="relationship" relationship="viewControllers" id="pYU-65-IbW"/>
-                        <segue destination="zzi-do-dKk" kind="relationship" relationship="viewControllers" id="NDS-QE-PCi"/>
                         <segue destination="sPf-zK-vzT" kind="relationship" relationship="viewControllers" id="a1F-Wa-rFq"/>
                         <segue destination="45I-5b-luy" kind="relationship" relationship="viewControllers" id="IYh-yI-bFu"/>
                         <segue destination="nBg-9F-kB6" kind="relationship" relationship="viewControllers" id="o4y-Jz-5sl"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DpS-ww-Ql1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-878" y="-663"/>
         </scene>
@@ -63,7 +62,7 @@
         <!--Inbox View Controller-->
         <scene sceneID="spm-HY-D8D">
             <objects>
-                <viewController id="hx3-Y3-x4g" customClass="inboxViewController" customModule="nav" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hx3-Y3-x4g" customClass="inboxViewController" customModule="cegep_ios_development_swift_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kpb-U5-TOc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,12 +75,13 @@
             </objects>
             <point key="canvasLocation" x="229" y="881"/>
         </scene>
-        <!--Camera-->
+        <!--search-->
         <scene sceneID="MFV-Tx-QQ9">
             <objects>
-                <navigationController navigationBarHidden="YES" id="sPf-zK-vzT" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Camera" image="camera.fill" catalog="system" selectedImage="camera.fill" id="c73-Mv-dui"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HVs-jI-J7F">
+                <navigationController id="sPf-zK-vzT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="search" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="c73-Mv-dui"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="HVs-jI-J7F">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -90,7 +90,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcK-7P-Jal" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-522" y="96"/>
+            <point key="canvasLocation" x="-878" y="107"/>
         </scene>
         <!--Home-->
         <scene sceneID="J5Y-uG-mPh">
@@ -111,7 +111,7 @@
         <!--View Controller-->
         <scene sceneID="ZHs-81-3qS">
             <objects>
-                <viewController id="3vy-Em-045" customClass="ViewController" customModule="nav" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3vy-Em-045" customClass="ViewController" customModule="cegep_ios_development_swift_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleAspectFill" id="Anz-Jd-YMw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,42 +124,26 @@
             </objects>
             <point key="canvasLocation" x="-1933" y="881"/>
         </scene>
-        <!--Discovery View Controller-->
-        <scene sceneID="hTh-XJ-D3a">
-            <objects>
-                <viewController id="fxU-KQ-sch" customClass="discoveryViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="c8c-QW-fZz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="bW4-RX-gR9"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="IOU-ET-yGa"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xul-4E-ug7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1207" y="881"/>
-        </scene>
-        <!--View Controller-->
+        <!--Dicovery View Controller-->
         <scene sceneID="JA3-mb-Oyi">
             <objects>
-                <viewController id="mT8-8z-Y6n" sceneMemberID="viewController">
+                <viewController id="mT8-8z-Y6n" customClass="dicoveryViewController" customModule="cegep_ios_development_swift_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A9h-ew-JZF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wDE-Td-GMj"/>
                     </view>
                     <navigationItem key="navigationItem" id="8rd-q8-G54"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="52z-fK-D9e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-523" y="881"/>
+            <point key="canvasLocation" x="-878" y="881"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="l9E-1v-Q2Q">
             <objects>
-                <viewController id="NIX-eR-rxr" customClass="profileViewController" customModule="nav" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NIX-eR-rxr" customClass="profileViewController" customModule="cegep_ios_development_swift_project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yNo-Ns-rb4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -172,25 +156,8 @@
             </objects>
             <point key="canvasLocation" x="958" y="881"/>
         </scene>
-        <!--Discover-->
-        <scene sceneID="9gF-bl-eyq">
-            <objects>
-                <navigationController navigationBarHidden="YES" id="zzi-do-dKk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Discover" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="WTK-hL-ivZ"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0dg-Ud-NB2">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="fxU-KQ-sch" kind="relationship" relationship="rootViewController" id="nzi-dO-JF7"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ayt-Wv-jNW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1206" y="96"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="camera.fill" catalog="system" width="128" height="96"/>
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>

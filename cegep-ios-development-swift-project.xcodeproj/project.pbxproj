@@ -13,7 +13,6 @@
 		841535BA2771C03B008AC2C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841535B82771C03B008AC2C9 /* Main.storyboard */; };
 		841535BD2771C03B008AC2C9 /* nav.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841535BB2771C03B008AC2C9 /* nav.xcdatamodeld */; };
 		841535BF2771C03E008AC2C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841535BE2771C03E008AC2C9 /* Assets.xcassets */; };
-		841535C22771C03E008AC2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841535C02771C03E008AC2C9 /* LaunchScreen.storyboard */; };
 		841535CD2771C03E008AC2C9 /* navTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535CC2771C03E008AC2C9 /* navTests.swift */; };
 		841535D82771C03E008AC2C9 /* navUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535D72771C03E008AC2C9 /* navUITests.swift */; };
 		841535E62771C363008AC2C9 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535E52771C363008AC2C9 /* VideoCollectionViewCell.swift */; };
@@ -22,6 +21,7 @@
 		841535F02771D187008AC2C9 /* dicoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535EF2771D187008AC2C9 /* dicoveryViewController.swift */; };
 		841535F22771D194008AC2C9 /* inboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535F12771D194008AC2C9 /* inboxViewController.swift */; };
 		841535F42771D1A7008AC2C9 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535F32771D1A7008AC2C9 /* profileViewController.swift */; };
+		841535F62771E5CC008AC2C9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535F52771E5CC008AC2C9 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,19 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		841535AF2771C03B008AC2C9 /* nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841535AF2771C03B008AC2C9 /* cegep-ios-development-swift-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cegep-ios-development-swift-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841535B22771C03B008AC2C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841535B42771C03B008AC2C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		841535B62771C03B008AC2C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		841535B92771C03B008AC2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841535BC2771C03B008AC2C9 /* nav.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = nav.xcdatamodel; sourceTree = "<group>"; };
 		841535BE2771C03E008AC2C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		841535C12771C03E008AC2C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841535C32771C03E008AC2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		841535C82771C03E008AC2C9 /* navTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841535C82771C03E008AC2C9 /* cegep-ios-development-swift-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cegep-ios-development-swift-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841535CC2771C03E008AC2C9 /* navTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navTests.swift; sourceTree = "<group>"; };
 		841535CE2771C03E008AC2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		841535D32771C03E008AC2C9 /* navUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841535D32771C03E008AC2C9 /* cegep-ios-development-swift-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cegep-ios-development-swift-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841535D72771C03E008AC2C9 /* navUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navUITests.swift; sourceTree = "<group>"; };
 		841535D92771C03E008AC2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841535E52771C363008AC2C9 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		841535EF2771D187008AC2C9 /* dicoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoveryViewController.swift; sourceTree = "<group>"; };
 		841535F12771D194008AC2C9 /* inboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxViewController.swift; sourceTree = "<group>"; };
 		841535F32771D1A7008AC2C9 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		841535F52771E5CC008AC2C9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +103,9 @@
 		841535B02771C03B008AC2C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				841535AF2771C03B008AC2C9 /* nav.app */,
-				841535C82771C03E008AC2C9 /* navTests.xctest */,
-				841535D32771C03E008AC2C9 /* navUITests.xctest */,
+				841535AF2771C03B008AC2C9 /* cegep-ios-development-swift-project.app */,
+				841535C82771C03E008AC2C9 /* cegep-ios-development-swift-projectTests.xctest */,
+				841535D32771C03E008AC2C9 /* cegep-ios-development-swift-projectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,13 +120,13 @@
 				841535B62771C03B008AC2C9 /* ViewController.swift */,
 				841535B82771C03B008AC2C9 /* Main.storyboard */,
 				841535BE2771C03E008AC2C9 /* Assets.xcassets */,
-				841535C02771C03E008AC2C9 /* LaunchScreen.storyboard */,
 				841535C32771C03E008AC2C9 /* Info.plist */,
 				841535BB2771C03B008AC2C9 /* nav.xcdatamodeld */,
 				841535E52771C363008AC2C9 /* VideoCollectionViewCell.swift */,
 				841535EF2771D187008AC2C9 /* dicoveryViewController.swift */,
 				841535F12771D194008AC2C9 /* inboxViewController.swift */,
 				841535F32771D1A7008AC2C9 /* profileViewController.swift */,
+				841535F52771E5CC008AC2C9 /* SecondViewController.swift */,
 			);
 			path = nav;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		841535AE2771C03B008AC2C9 /* nav */ = {
+		841535AE2771C03B008AC2C9 /* cegep-ios-development-swift-project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841535DC2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "nav" */;
+			buildConfigurationList = 841535DC2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "cegep-ios-development-swift-project" */;
 			buildPhases = (
 				841535AB2771C03B008AC2C9 /* Sources */,
 				841535AC2771C03B008AC2C9 /* Frameworks */,
@@ -164,14 +164,14 @@
 			);
 			dependencies = (
 			);
-			name = nav;
+			name = "cegep-ios-development-swift-project";
 			productName = nav;
-			productReference = 841535AF2771C03B008AC2C9 /* nav.app */;
+			productReference = 841535AF2771C03B008AC2C9 /* cegep-ios-development-swift-project.app */;
 			productType = "com.apple.product-type.application";
 		};
-		841535C72771C03E008AC2C9 /* navTests */ = {
+		841535C72771C03E008AC2C9 /* cegep-ios-development-swift-projectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841535DF2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "navTests" */;
+			buildConfigurationList = 841535DF2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "cegep-ios-development-swift-projectTests" */;
 			buildPhases = (
 				841535C42771C03E008AC2C9 /* Sources */,
 				841535C52771C03E008AC2C9 /* Frameworks */,
@@ -182,14 +182,14 @@
 			dependencies = (
 				841535CA2771C03E008AC2C9 /* PBXTargetDependency */,
 			);
-			name = navTests;
+			name = "cegep-ios-development-swift-projectTests";
 			productName = navTests;
-			productReference = 841535C82771C03E008AC2C9 /* navTests.xctest */;
+			productReference = 841535C82771C03E008AC2C9 /* cegep-ios-development-swift-projectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		841535D22771C03E008AC2C9 /* navUITests */ = {
+		841535D22771C03E008AC2C9 /* cegep-ios-development-swift-projectUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841535E22771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "navUITests" */;
+			buildConfigurationList = 841535E22771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "cegep-ios-development-swift-projectUITests" */;
 			buildPhases = (
 				841535CF2771C03E008AC2C9 /* Sources */,
 				841535D02771C03E008AC2C9 /* Frameworks */,
@@ -200,9 +200,9 @@
 			dependencies = (
 				841535D52771C03E008AC2C9 /* PBXTargetDependency */,
 			);
-			name = navUITests;
+			name = "cegep-ios-development-swift-projectUITests";
 			productName = navUITests;
-			productReference = 841535D32771C03E008AC2C9 /* navUITests.xctest */;
+			productReference = 841535D32771C03E008AC2C9 /* cegep-ios-development-swift-projectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 841535AA2771C03B008AC2C9 /* Build configuration list for PBXProject "nav" */;
+			buildConfigurationList = 841535AA2771C03B008AC2C9 /* Build configuration list for PBXProject "cegep-ios-development-swift-project" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -241,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				841535AE2771C03B008AC2C9 /* nav */,
-				841535C72771C03E008AC2C9 /* navTests */,
-				841535D22771C03E008AC2C9 /* navUITests */,
+				841535AE2771C03B008AC2C9 /* cegep-ios-development-swift-project */,
+				841535C72771C03E008AC2C9 /* cegep-ios-development-swift-projectTests */,
+				841535D22771C03E008AC2C9 /* cegep-ios-development-swift-projectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841535C22771C03E008AC2C9 /* LaunchScreen.storyboard in Resources */,
 				841535E82771C416008AC2C9 /* video1.mp4 in Resources */,
 				841535BF2771C03E008AC2C9 /* Assets.xcassets in Resources */,
 				841535EA2771C420008AC2C9 /* video3.mp4 in Resources */,
@@ -285,6 +284,7 @@
 				841535F22771D194008AC2C9 /* inboxViewController.swift in Sources */,
 				841535B72771C03B008AC2C9 /* ViewController.swift in Sources */,
 				841535BD2771C03B008AC2C9 /* nav.xcdatamodeld in Sources */,
+				841535F62771E5CC008AC2C9 /* SecondViewController.swift in Sources */,
 				841535B32771C03B008AC2C9 /* AppDelegate.swift in Sources */,
 				841535E62771C363008AC2C9 /* VideoCollectionViewCell.swift in Sources */,
 				841535B52771C03B008AC2C9 /* SceneDelegate.swift in Sources */,
@@ -314,12 +314,12 @@
 /* Begin PBXTargetDependency section */
 		841535CA2771C03E008AC2C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 841535AE2771C03B008AC2C9 /* nav */;
+			target = 841535AE2771C03B008AC2C9 /* cegep-ios-development-swift-project */;
 			targetProxy = 841535C92771C03E008AC2C9 /* PBXContainerItemProxy */;
 		};
 		841535D52771C03E008AC2C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 841535AE2771C03B008AC2C9 /* nav */;
+			target = 841535AE2771C03B008AC2C9 /* cegep-ios-development-swift-project */;
 			targetProxy = 841535D42771C03E008AC2C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -331,14 +331,6 @@
 				841535B92771C03B008AC2C9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		841535C02771C03E008AC2C9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				841535C12771C03E008AC2C9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -509,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nav.app/nav";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cegep-ios-development-swift-project.app/cegep-ios-development-swift-project";
 			};
 			name = Debug;
 		};
@@ -530,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nav.app/nav";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cegep-ios-development-swift-project.app/cegep-ios-development-swift-project";
 			};
 			name = Release;
 		};
@@ -575,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		841535AA2771C03B008AC2C9 /* Build configuration list for PBXProject "nav" */ = {
+		841535AA2771C03B008AC2C9 /* Build configuration list for PBXProject "cegep-ios-development-swift-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841535DA2771C03F008AC2C9 /* Debug */,
@@ -584,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841535DC2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "nav" */ = {
+		841535DC2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "cegep-ios-development-swift-project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841535DD2771C03F008AC2C9 /* Debug */,
@@ -593,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841535DF2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "navTests" */ = {
+		841535DF2771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "cegep-ios-development-swift-projectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841535E02771C03F008AC2C9 /* Debug */,
@@ -602,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841535E22771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "navUITests" */ = {
+		841535E22771C03F008AC2C9 /* Build configuration list for PBXNativeTarget "cegep-ios-development-swift-projectUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841535E32771C03F008AC2C9 /* Debug */,
