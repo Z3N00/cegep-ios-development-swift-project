@@ -16,6 +16,12 @@
 		841535C22771C03E008AC2C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841535C02771C03E008AC2C9 /* LaunchScreen.storyboard */; };
 		841535CD2771C03E008AC2C9 /* navTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535CC2771C03E008AC2C9 /* navTests.swift */; };
 		841535D82771C03E008AC2C9 /* navUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535D72771C03E008AC2C9 /* navUITests.swift */; };
+		841535E62771C363008AC2C9 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535E52771C363008AC2C9 /* VideoCollectionViewCell.swift */; };
+		841535E82771C416008AC2C9 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 841535E72771C416008AC2C9 /* video1.mp4 */; };
+		841535EA2771C420008AC2C9 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 841535E92771C420008AC2C9 /* video3.mp4 */; };
+		841535F02771D187008AC2C9 /* dicoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535EF2771D187008AC2C9 /* dicoveryViewController.swift */; };
+		841535F22771D194008AC2C9 /* inboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535F12771D194008AC2C9 /* inboxViewController.swift */; };
+		841535F42771D1A7008AC2C9 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841535F32771D1A7008AC2C9 /* profileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		841535D32771C03E008AC2C9 /* navUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841535D72771C03E008AC2C9 /* navUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navUITests.swift; sourceTree = "<group>"; };
 		841535D92771C03E008AC2C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841535E52771C363008AC2C9 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		841535E72771C416008AC2C9 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		841535E92771C420008AC2C9 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		841535EF2771D187008AC2C9 /* dicoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicoveryViewController.swift; sourceTree = "<group>"; };
+		841535F12771D194008AC2C9 /* inboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inboxViewController.swift; sourceTree = "<group>"; };
+		841535F32771D1A7008AC2C9 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,8 @@
 		841535B12771C03B008AC2C9 /* nav */ = {
 			isa = PBXGroup;
 			children = (
+				841535E72771C416008AC2C9 /* video1.mp4 */,
+				841535E92771C420008AC2C9 /* video3.mp4 */,
 				841535B22771C03B008AC2C9 /* AppDelegate.swift */,
 				841535B42771C03B008AC2C9 /* SceneDelegate.swift */,
 				841535B62771C03B008AC2C9 /* ViewController.swift */,
@@ -109,6 +123,10 @@
 				841535C02771C03E008AC2C9 /* LaunchScreen.storyboard */,
 				841535C32771C03E008AC2C9 /* Info.plist */,
 				841535BB2771C03B008AC2C9 /* nav.xcdatamodeld */,
+				841535E52771C363008AC2C9 /* VideoCollectionViewCell.swift */,
+				841535EF2771D187008AC2C9 /* dicoveryViewController.swift */,
+				841535F12771D194008AC2C9 /* inboxViewController.swift */,
+				841535F32771D1A7008AC2C9 /* profileViewController.swift */,
 			);
 			path = nav;
 			sourceTree = "<group>";
@@ -236,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				841535C22771C03E008AC2C9 /* LaunchScreen.storyboard in Resources */,
+				841535E82771C416008AC2C9 /* video1.mp4 in Resources */,
 				841535BF2771C03E008AC2C9 /* Assets.xcassets in Resources */,
+				841535EA2771C420008AC2C9 /* video3.mp4 in Resources */,
 				841535BA2771C03B008AC2C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841535F22771D194008AC2C9 /* inboxViewController.swift in Sources */,
 				841535B72771C03B008AC2C9 /* ViewController.swift in Sources */,
 				841535BD2771C03B008AC2C9 /* nav.xcdatamodeld in Sources */,
 				841535B32771C03B008AC2C9 /* AppDelegate.swift in Sources */,
+				841535E62771C363008AC2C9 /* VideoCollectionViewCell.swift in Sources */,
 				841535B52771C03B008AC2C9 /* SceneDelegate.swift in Sources */,
+				841535F42771D1A7008AC2C9 /* profileViewController.swift in Sources */,
+				841535F02771D187008AC2C9 /* dicoveryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
