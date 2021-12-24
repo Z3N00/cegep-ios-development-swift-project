@@ -21,10 +21,10 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
     
-            let model = VideoModel(caption: "Amazing video song", username: "@user", audioTrackingName: "In Love Again", videoFileName: "video1", videoFileFormat: "mp4")
+            let model = VideoModel(caption: "Amazing video song", username: "@inder", audioTrackingName: "In Love Again", videoFileName: "video1", videoFileFormat: "mp4")
             data.append(model)
         
-        let model1 = VideoModel(caption: "yuppee", username: "@user", audioTrackingName: "songs", videoFileName: "video3", videoFileFormat: "mp4")
+        let model1 = VideoModel(caption: "yuppee", username: "@inder", audioTrackingName: "songs", videoFileName: "video3", videoFileFormat: "mp4")
         data.append(model1)
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
